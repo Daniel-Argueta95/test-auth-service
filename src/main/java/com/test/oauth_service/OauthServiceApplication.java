@@ -15,10 +15,4 @@ public class OauthServiceApplication {
 
 
 
-	@Bean
-	public BCryptPasswordEncoder passwordEncoder() {
-		return new BCryptPasswordEncoder();
-	}
-
-
 }

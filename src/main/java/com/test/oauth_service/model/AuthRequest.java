@@ -1,13 +1,13 @@
 package com.test.oauth_service.model;
 
 
-public class User {
+public class AuthRequest {
     private String username;
     private String password;
 
-    public User(){}
+    public AuthRequest(){}
 
-    public User(String username, String password) {
+    public AuthRequest(String username, String password) {
         this.username = username;
         this.password = password;
     }
